@@ -5,6 +5,7 @@ ObjectId = mongoose.Types.ObjectId
 mongoose.Promise = require("q").Promise
 const database = require('./db/db')
 var bodyParser = require("body-parser")
+const messages = require("./config/messages")
 Promise = require("bluebird")
 var app = express()
 
