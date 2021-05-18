@@ -7,7 +7,7 @@ module.exports = {
         },
         error: {
             user: {
-                create: 'Ocorreu um erro ao salvar o usuário!'
+                create: 'Ocorreu um erro ao criar o usuário!'
             }
 
         }
