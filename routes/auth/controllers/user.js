@@ -7,7 +7,7 @@ const create = (req, res) => {
        && req.body.name != undefined){
         req.body.status = true
         userService.create(req.body).then((user)=>{
-            return res.status(200).json({succes: true, message: messages.user.success.create})
+            return res.status(200).json({succes: true, message: messages.routes.success.user.create})
         })
         .catch((err) => {
             res.status(500).json({"error": err.message})

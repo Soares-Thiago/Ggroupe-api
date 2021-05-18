@@ -1,10 +1,16 @@
 module.exports = {
-    user: {
-        success:{
-            create: 'O usuário foi criado com sucesso!'
+    routes: {
+        success: {
+            user: {
+                create: 'O usuário foi criado com sucesso!'
+            }
         },
         error: {
+            user: {
+                create: 'Ocorreu um erro ao salvar o usuário!'
+            }
 
         }
     }
+    
 }
